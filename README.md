@@ -16,7 +16,7 @@ The full-cell differential voltage is expressed as the difference of the two ele
 - **m<sub>p</sub>, m<sub>n</sub>** — scaling factors (active mass) of the positive / negative electrode → changes indicate **LAM**
 - **δ<sub>p</sub>, δ<sub>n</sub>** — slippage (relative shift) of each electrode on the capacity axis → changes indicate **LLI**
 
-The method follows H. M. Dahn *et al.*, *J. Electrochem. Soc.* **159** (9), A1405–A1409 (2012).
+The method follows H. M. Dahn *et al.*, *J. Electrochem. Soc.* **159** (9), A1405–A1409 (2012) ([doi:10.1149/2.013209jes](https://doi.org/10.1149/2.013209jes)).
 
 ## Workflow
 
@@ -90,19 +90,20 @@ python dvdq_gui.py
 If you use this tool in your research, please cite:
 
 ```
-K.-H. Lee, DVA Tool: GUI software for differential voltage analysis of lithium-ion batteries (v1.0.0), GitHub, 2026. https://github.com/<username>/<repository>
+K.-H. Lee, DVA Tool: GUI software for differential voltage analysis of lithium-ion batteries (v1.0.0), GitHub, 2026. https://github.com/khlee-tukorea/DVA-Tool
 ```
 
 and the original DVA method:
 
 ```
-H. M. Dahn, A. J. Smith, J. C. Burns, D. A. Stevens, J. R. Dahn, "User-Friendly Differential Voltage Analysis Freeware for the Analysis of Degradation Mechanisms in Li-Ion Batteries", J. Electrochem. Soc. 159 (9), A1405–A1409 (2012).
+H. M. Dahn, A. J. Smith, J. C. Burns, D. A. Stevens, J. R. Dahn, "User-Friendly Differential Voltage Analysis Freeware for the Analysis of Degradation Mechanisms in Li-Ion Batteries", J. Electrochem. Soc. 159 (9), A1405–A1409 (2012). https://doi.org/10.1149/2.013209jes
 ```
 
 ## Author
 
 **Kwon-Hyung Lee**
-Developed at the Nanomanufacturing Group, University of Cambridge. Now maintained at Tech University of Korea.
+Assistant Professor, Tech University of Korea
+Originally developed at the Nanomanufacturing Group, Department of Engineering, University of Cambridge.
 
 ## License
 
